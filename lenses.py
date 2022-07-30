@@ -4,8 +4,8 @@ import numpy as np
 import pickle
 
 st.title('Contact Lenses - Prediction')
-model = 'D:\BOOKS\seventhsem\TARP\lens\model.pkl'
-model = pickle.load(open('D:\BOOKS\seventhsem\TARP\lens\model.pkl', 'rb'))
+model = 'model.pkl'
+model = pickle.load(open('model.pkl', 'rb'))
 
 age = st.selectbox(
      'What is your age classified as',
