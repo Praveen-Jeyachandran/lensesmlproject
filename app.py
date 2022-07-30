@@ -4,7 +4,6 @@ import numpy as np
 import pickle
 
 st.title('Contact Lenses - Prediction')
-model = 'model.pkl'
 model = pickle.load(open('model.pkl', 'rb'))
 
 age = st.selectbox(
