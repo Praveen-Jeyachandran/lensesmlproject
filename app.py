@@ -7,8 +7,7 @@ import sklearn
 st.title('Contact Lenses - Prediction')
 st.write('Using the best performing model between Naive Bayes Algorithm, Support Vector Machine Classifier and Logistic Regression, this project helps to determine the type of lenses (if applicable) the user is to be fitted with!')
 with st.expander("Project Details"):
-    st.write("Developed by Praveen Jeyachandran")
-    st.write("19BEE1185 - VITC")
+    st.write("Developed by Praveen Jeyachandran : 19BEE1185 & S Bandyopadhyay : 19BEE1114")
     st.write(" ")
     st.write("The purpose of this project is to learn and implement Machine Learning.")
     st.write(
